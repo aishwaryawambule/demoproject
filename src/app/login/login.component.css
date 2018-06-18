@@ -1,0 +1,25 @@
+
+div{
+
+    margin-bottom:3%;
+    margin-top:10px;}
+div.form{
+    position: relative;
+    left: 10%;
+}
+div label{
+   margin-left:10%;
+   
+}
+fieldset{
+    width: 20%;
+   
+}
+fieldset input{
+    position: relative;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    text-align: center;
+    border:0px;
+}

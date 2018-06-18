@@ -1,0 +1,16 @@
+<h1>
+
+   Router Paths 
+</h1>
+
+<base href = "/">
+<div>
+Display {{title}}
+<!-- <input type="text" [value] = "title" (input) = "modifytext($event)"  /> -->
+<input type = "text" [(ngModel)] = "title"  />
+
+</div>
+<app-header></app-header>
+<router-outlet></router-outlet>
+
+<app-footer></app-footer>

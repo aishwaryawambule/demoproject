@@ -1,0 +1,24 @@
+
+<form >
+<div class="form">
+<fieldset class="username">
+  <legend>
+  Username
+  </legend>
+<input type="text" id="Username" #username>
+
+</fieldset>
+<fieldset class="pass" >
+<legend>
+Password
+</legend>
+<input type="password" #password>
+</fieldset>
+<div class="btn">
+<input type="button"  (click)="validate(username.value,)" value="login" />
+
+<button >login</button>
+
+</div>
+</div>
+</form>
